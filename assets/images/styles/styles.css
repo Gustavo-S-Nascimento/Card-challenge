@@ -27,7 +27,7 @@ body {
     height: 100vh;
 }
 
-.main {
+main {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -36,6 +36,18 @@ body {
     height: 100vh;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+#container-Card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 20px;
+    flex-wrap: wrap;
+
 }
 
 .card {
